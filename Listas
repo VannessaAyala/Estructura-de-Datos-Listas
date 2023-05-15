@@ -1,0 +1,13 @@
+ public static void main(String args[]){  
+  ArrayList<String> stringList = new ArrayList<String>();
+  list.add("Hola");
+  list.add("Adios");    
+  list.add("Hi");    
+  Iterator itr=stringList.iterator();//getting the Iterator  
+  while(itr.hasNext()){
+   System.out.println(itr.next());
+  }  
+//también se puede hacer con lambda
+  stringList.forEach(str->System.out.println(str));
+ }  
+}  
